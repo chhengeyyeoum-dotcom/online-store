@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <!--font-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JS Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    -->
+    <!--stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <a class="navbar-brand" href="#"><img src="Accent logo.png" width="200px"></a>
+            </div>
+        </div>
+    </div>
+    <!--Navigation bar-->
+    <!--<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">-->
+
+             <!-- Collapse button -->
+            <!--<a class="navbar-brand" href="#"><img src="Accent logo.png" width="200px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarResponsive" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>-->
+
+         <!-- Navbar links -->
+        <!--<div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">   ms-auto pushes to the right, ml to the left
+                <li class="navbar-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#">Bundle</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#">Bulk Order</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>-->
+    
+    <!--Image slider-->
+    <div id="slides" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#slides" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#slides" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#slides" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="pexels-apasaric-2339009.jpg" alt="slide 1">
+                <div class="carousel-caption d-block">
+                    <h1 class="display-2">Hello</h1>
+                    <h3>Welcome to Lumen Moe</h3>
+                    <button type="button" class="btn btn-outline-light btn bg-lg">
+                        Shop All Here
+                    </button>
+                    <button type="button" class="btn btn-primary btn bg-lg">New Arrivals</button>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <img src="pexels-dsd-143941-3917809.jpg" alt="slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="pexels-evgeny-tchebotarev-1058775-2187605.jpg" alt="slide 3">
+            </div>
+        </div>
+    </div>
+
+    <!--Welcome section-->
+    <div class="conntainer-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                 <h1 class="display-4">Best Seller</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--product feature section-->
+    <section class="py-5">
+  <div class="container-fluid padding">
+    <div class="row text-center">
+
+      <!-- Product 1 -->
+      <div class="col-md-3 col-lg-3 mb-3">
+        <div class="product-card">
+          <img src="pexels-ekaterina-bolovtsova-7445002.jpg" class="img-fluid mb-3" alt="Lychee Candle">
+
+          <h6 class="product-title">LYCHEE CANDLE JAR</h6>
+          <p class="product-price">$38.00</p>
+
+          <div class="product-rating">
+            ★★★★★ <span>(55)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="col-md-3 col-lg-3 mb-3">
+        <div class="product-card">
+          <img src="pexels-gisele-seidel-170981851-30345465.jpg" class="img-fluid mb-3" alt="Matcha Candle">
+
+          <h6 class="product-title">MATCHA CANDLE JAR</h6>
+          <p class="product-price">$38.00</p>
+
+          <div class="product-rating">
+            ★★★★★ <span>(37)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="col-md-3 col-lg-3 mb-3">
+        <div class="product-card">
+          <img src="pexels-gisele-seidel-170981851-30345472.jpg" class="img-fluid mb-3" alt="Ube Candle">
+
+          <h6 class="product-title">UBE CANDLE JAR</h6>
+          <p class="product-price">$38.00</p>
+
+          <div class="product-rating">
+            ★★★★★ <span>(60)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="col-md-3 col-lg-3 mb-3">
+        <div class="product-card">
+          <img src="pexels-gisele-seidel-170981851-30345472.jpg" class="img-fluid mb-3" alt="Ube Candle">
+
+          <h6 class="product-title">UBE CANDLE JAR</h6>
+          <p class="product-price">$38.00</p>
+
+          <div class="product-rating">
+            ★★★★★ <span>(60)</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+    <!--<div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12 col-sm-6 col-md-4">
+                <i class="fas fa-code"></i>
+                <h3>HTML</h3>
+                <p>Build it with the Bootstrap 5</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <i class="fas fa-bold"></i>
+                <h3>HTML</h3>
+                <p>Build it with the Bootstrap 5</p>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <i class="fas fa-code"></i>
+                <h3>HTML</h3>
+                <p>Build it with the Bootstrap 5</p>
+            </div>
+        </div>
+    </div>-->
+    <div>
+        <hr class="my-4">
+    </div>
+
+    <!--About us-->
+    <!--<div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-4 col-lg-4">
+                <div class="highlight-1">
+                <img src="pexels-gisele-seidel-170981851-30345465.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4">
+                <div class="highlight-2">
+                <img src="pexels-vlada-karpovich-6755809.jpg"> 
+                </div>
+            </div>
+            <div class="row-md-6 col-lg-6 g-2">
+                <div class="highlight-2">
+                <img src="pexels-vlada-karpovich-6755809.jpg"> 
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!--<div class="row">
+            <div class="col-md-2 col-lg-2">
+                <div class="highlight-1">
+                <img src="pexels-gisele-seidel-170981851-30345465.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-10 pe-0 ps-2">
+                    <div class="col-md-12 col-lg-12">
+                        <div class="highlight-2">
+                            <img src="pexels-vlada-karpovich-6755809.jpg"> 
+                        </div>
+                    </div>
+                <div class="row g-2 mb-2 ">
+                    <div class="col-6   ">
+                        <div class="bg-success border border-dark  text-center py-4">
+                            <h1>Content2</h1>
+                        </div>
+                    </div>
+                    <div class="col-6  ">
+                        <div class="bg-success border border-dark text-center py-4">
+                            <h1>Content3</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+    <!--two columns section-->
+    <!--<div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-12 col-lg-6">
+                <h2>If you build it...</h2>
+                <p>This means the element becomes a flex container, and its direct 
+                    children (flex items) can be arranged and aligned using flexbox properties.</p>
+                <p>This means the element becomes a flex container, and its direct
+                    children (flex items) can be arranged and aligned using flexbox properties.</p>
+                <p>This means the element becomes a flex container, and its direct 
+                    children (flex items) can be arranged and aligned using flexbox properties.</p>
+
+                <br>
+                <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+            <div class="col-lg-6">
+                <img src="pexels-dsd-143941-3917809.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>-->
+    
+    <!--Fixed background-->
+    <figure>
+        <div class="fixed-wrap">
+            <div id="fixed">
+            </div>
+        </div>
+    </figure>
+
+    <!--two columns section-->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-12 col-lg-6">
+                <h2>Our philosophy</h2>
+                <p>This means the element becomes a flex container, and its direct 
+                    children (flex items) can be arranged and aligned using flexbox properties.</p>
+                <p>This means the element becomes a flex container, and its direct
+                    children (flex items) can be arranged and aligned using flexbox properties.</p>
+                <p>This means the element becomes a flex container, and its direct 
+                    children (flex items) can be arranged and aligned using flexbox properties.</p>
+            </div>
+              <div class="col-lg-6">
+                <img src="pexels-dsd-143941-3917809.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!--<div class="color scheme color -scheme-bg dark" >
+        <div class="content section-stack gap-8  text-center">
+            <div class="header-section justify-self-center text-center">
+                <div class="prose">
+                    <div class="p">
+                        Stayh up to date
+                    </div>
+                    <div class="h3">
+                        newsletter
+                    </div>
+                    <div class="p">
+                        Sign up to receive occasional emails on special promos, 
+                        early access to new products, and much more.
+                    </div>
+                    <form method="post" action="/contac#newsletter-form-template" id="newsletter-form-template"
+                    accept-charset="UTf-8" class="form justify-self-center">
+                    <input type="hidden" name="form_type" value="customer">
+                    <input type="hidden" name="utf8" value="true">
+                    <input type="hidden" name="contact[tages]" value="newsletters">
+                    </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>-->
+
+    <!--connect-->
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2>Connect</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!--<div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-md-12 col-lg-12">
+                    <div class="info">
+                    <h2>Let's Keep In Touch</h2>
+                    <p>Sign up to email & receive 10% off your first purchase</p>
+                    <div class="row text-center">
+                        <div class="col-4" justify center>
+                            <label for="email" class="form-label visually-hidden">
+                                Email Address
+                            </label>
+                        <input 
+                            type="email" 
+                            id="email"
+                            class="form-control form-control-lg"
+                            placeholder="Email Address"
+                        >
+                        <div class="col-3">
+                            <button type="button" class="btn btn-primary btn bg-lg mt-4 px-4 py-2">Sign Up</button>  
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>-->
+    
+    <!--footer-->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <!--contact-->
+                <div class="col-md-4 col-lg-4">
+                    <!--<hr class="light">-->
+                    <h5>Support</h5>
+                    <br>
+                    <p>061 465 412</p>
+                    <p><a href="https://t.me/lumenmoe">Telegram</a></p>
+                    <p>info@lumenmoe.com</p>
+                    
+                </div>
+                
+                <!--operation-->
+                 <div class="col-md-4 col-lg-4">
+                    <!--<hr class="light">-->
+                    <h5>Operation Hour</h5>
+                    <br>
+                    <p>061 465 412</p>
+                    <p>info@lumenmoe.com</p>
+                    <p>Tuol Kork, Phnom Penh, Cambodia</p>
+                </div>
+
+                <!--Location-->
+                 <!--<div class="col-md-2 col-lg-2">
+                    <hr class="light">
+                    <h5>Our Location</h5>
+                    <br>
+                    <p>061 465 412</p>
+                    <p>info@lumenmoe.com</p>
+                    <p>Tuol Kork, Phnom Penh, Cambodia</p>
+                </div>-->
+
+                <div class="col-md-4 col-lg-4">
+                <h5>Social Media</h5>
+                <br>
+                <p><a href="https://web.facebook.com/LumenMoe">Facebook</a></p>
+                <p><a href="https://web.facebook.com/LumenMoe">Instagram</a></p>
+                <p><a href="https://web.facebook.com/LumenMoe">TikTok</a></p>
+                <p><a href="https://web.facebook.com/LumenMoe">YouTube</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--break line
+        <div>
+            <hr class="my-4">
+        </div>-->
+        <div class="copy-right">
+        <div class="row text-center justify-" style="background-color: #11120d;">
+            <div class="col-12">
+                    <p>&copy; 2026 - LUMEN MOE</p>
+            </div>
+        </div>
+        </div>
+</body>
+</html>
